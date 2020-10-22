@@ -4,67 +4,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="favicon icon" href="assets/img/icons/favicon.ico">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Homemade+Apple&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Sobre mim</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <ul id="menu">
+        <li>
             <a href="index.html" title="Home">
-                <img src="assets/img/icons/pagina-inicial.png" alt="Icone da Pagina Inicial" width="50">
+                <img src="assets/img/icons/pagina-inicial.png" alt="Icone da Pagina Inicial">
                 <figcaption>HOME</figcaption>
             </a>
+        </li>
+        <li>
             <a href="contato.html" title="Contato">
-                <img src="assets/img/icons/arroba.png" alt="Icone da Pagina de Contato" width="50">
+                <img src="assets/img/icons/arroba.png" alt="Icone da Pagina de Contato">
                 <figcaption>CONTATO</figcaption>
             </a>
-        </nav>
-    </header>
-    <div class="container">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <ol class="corousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img class="imgcarousel" src="./assets/img/toalhas.jpg" alt="foto de toalhas no varal ao vento">
-                </div>
-                <div class="item">
-                    <img class="imgcarousel" src="./assets/img/cafeSorrindo.jpg" alt="xicara de cafe com espuma sorrindo">
-                </div>
-                <div class="item">
-                    <img class="imgcarousel" src="./assets/img/ingredientesMacarrao.jpg" alt="ingredientes Macarrao">
-                </div>
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                    <span class="sr-only">anterior</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                    <span class="sr-only">proximo</span>
-                </a>
-            </div>
+        </li>
+        <li>
+            <h4>
+                Lucas Silveira dos Santos
+            </h4>
+        </li>
+    </ul>
+    <h2 class="titulomanifesto" class="center">Manifesto para Desenvolvimento Ágil de Software</h2>
+    <div id="manifestoagil" class="container">
+        <h3 class="center">
+            Estamos descobrindo maneiras melhores de desenvolver
+            software, fazendo-o nós mesmos e ajudando outros a
+            fazerem o mesmo. Através deste trabalho, passamos a valorizar:
+        </h3>
+        <p class="center">
+            <strong class="strong">
+                Indivíduos e interações
+            </strong> mais que processos e ferramentas
+        </p>
+        <p class="center">
+            <strong class="strong">
+                Software em funcionamento
+            </strong> mais que documentação abrangente
+        </p>
+        <p class="center">
+            <strong class="strong">
+                Colaboração com o cliente
+            </strong> mais que negociação de contratos
+        </p>
+        <p class="center">
+            <strong class="strong">
+                Responder a mudanças
+            </strong> mais que seguir um plano
+        </p>            
+        <p class="center">
+            Ou seja, mesmo havendo valor nos itens à direita, valorizamos mais os itens à esquerda.
+        </p>
+        <div class="container">
+            <a href="https://agilemanifesto.org/iso/ptbr/manifesto.html" target="_blank">
+                <p class="center">
+                    <img src="https://img.icons8.com/fluent/48/000000/reading-unicorn.png"/>
+                    Leia mais
+                </p>
+            </a>
         </div>
     </div>
-    <h1>Lucas Silveira dos Santos</h1>
-    <h2>Em 180 caracteres...</h2>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptates porro fuga aut adipisci id vel, iusto velit delectus. Ab nisi repellat suscipit consequatur laudantium voluptates maxime, ullam temporibus laborum?</p>
-    <h3>Mais cento e oitenta caracteres (pq neh?!)</h3>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quibusdam, asperiores libero aspernatur laudantium, ab sunt et obcaecati eum nihil aliquid dolores similique modi sed ad fugit natus debitis soluta!</p>
-    <h4>Gif da princesa Jasmine</h4>
-    <img src="assets/img/princesaJasmine.gif" alt="Foto da princesa Jasmine">
-    <h5>Momentos do coração</h5>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/lmT7H09jR18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>Rita em 5 Minutos: Consciência de Classe</p>
+    <h2 class="titulocarosel">Fotenhas</h2>  
+    <div id="imagens" class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+            <li data-target="#myCarousel" data-slide-to="4"></li>
+            <li data-target="#myCarousel" data-slide-to="5"></li>
+            <li data-target="#myCarousel" data-slide-to="6"></li>
+            <li data-target="#myCarousel" data-slide-to="7"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+              <img class="imgcarousel" src="./assets/img/nascerdosol.jpg" alt="nascer do sol">
+              <div class="carousel-caption">
+                <h3>Nascer do Sol</h3>
+              </div>
+            </div>
+            <div class="item">
+              <img class="imgcarousel" src="./assets/img/solportrasdasfohas.jpg" alt="sol por trás das folhas de uma arvore">
+              <div class="carousel-caption">
+                <h3>Meio dia</h3>
+              </div>
+            </div>
+            <div class="item">
+                <img class="imgcarousel" src="./assets/img/xicaradecafe.jpg" alt="xicara de cafe com espeuma sorrindo">
+                <div class="carousel-caption">
+                  <h3>Cafézinho</h3>
+                </div>
+            </div>
+            <div class="item">
+                <img class="imgcarousel" src="./assets/img/ingredientesmacarrao.jpg" alt="ingredientes de macarronada">
+                <div class="carousel-caption">
+                    <h3>Almoço</h3>
+                  </div>
+            </div>
+            <div class="item">
+                <img class="imgcarousel" src="./assets/img/bolofuba.jpg" alt="fatia de boo de fuba">
+                <div class="carousel-caption">
+                    <h3>Sobremesa - Bolo de Fubá</h3>
+                  </div>
+            </div>
+            <div class="item">
+                <img class="imgcarousel" src="./assets/img/boobanana.jpg" alt="fatia de bolo de banana">
+                <div class="carousel-caption">
+                    <h3>Sobremesa - Bolo de Banana</h3>
+                  </div>
+            </div>
+            <div class="item">
+                <img class="imgcarousel" src="./assets/img/pudimdeleitecondensado.jpg" alt="fatia de pudim de leite condensado">
+                <div class="carousel-caption">
+                    <h3>Sobremesa - Pudim de Leite Condensado</h3>
+                  </div>
+            </div>
+            <div class="item">
+                <img class="imgcarousel" src="./assets/img/toalhasvento.jpg" alt="toalhas no varal ao vento">
+                <div class="carousel-caption">
+                    <h3>Toalhas no Varal</h3>
+                  </div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
+    <h2 class="titulocarosel">Momentos do coração</h2>
+    <div id="videos" class="container">
+        <div id="myCarouselVideos" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarouselVideos" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarouselVideos" data-slide-to="1"></li>
+            <li data-target="#myCarouselVideos" data-slide-to="2"></li>
+            <li data-target="#myCarouselVideos" data-slide-to="3"></li>
+          </ol>
+          <div class="carousel-inner">
+              <div class="item active">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/lmT7H09jR18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/oDxBQeLmxX8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/f3hwaojuEaQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Ejkb_YpuHWs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>                                      
+          </div>
+          <a class="left carousel-control" href="#myCarouselVideos" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="right carousel-control" href="#myCarouselVideos" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+      </div>
     <footer>
-        <p>Desenvolvida na primeira aula de HTML</p>
-        <a href="https://github.com/LssLucas" target="_blank" title="github.com/LssLucas">
-            <img src="assets/img/icons/github.png" alt="Icone GitHub" width="50">
-        </a>
+        <div class="container">
+            <a class="itemcenter"  href="https://github.com/LssLucas" target="_blank" title="github.com/LssLucas">
+                <img src="assets/img/icons/github.png" alt="Icone GitHub">
+            </a>
+        </div>
     </footer>
 </body>
 </html>

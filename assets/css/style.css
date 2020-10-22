@@ -1,0 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.imgcarousel{
+    width: 450px;
+    height: 450px;
+}
+.titulocarosel{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    margin: 20px;
+}
+.titulomanifesto{
+    color: pink;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+.strong{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+.textodapagina{
+    text-align: center;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.carousel-inner > .item > iframe,
+.carousel-inner > .item > a > iframe{
+    margin: auto;
+}
+.center{
+    text-align: center;
+}
+.itemcenter{
+    align-items: center;
+}
+#menu li a img figcaption{
+    display: inline;
+    padding: 15px;    
+}
+#menu li a {
+    text-decoration: none;
+    color: #546de5;
+    font-size: 20px;
+}
+#videos{
+    background-color: deeppink;
+}
+#imagens{
+    background-color: darkorchid;
+}
+#manifestoagil{
+    background-color: pink;
+    padding-top: 20px;
+}
