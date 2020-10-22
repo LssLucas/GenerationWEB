@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <link rel="favicon icon" href="assets/img/icons/favicon.ico">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="favicon icon" href="assets/img/icons/favicon.ico">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" href="./assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Sobre mim</title>
-    <style>
-        a {text-decoration: none;}
-        body {color:deeppink; background-color:Black; font-family:'Courier New'}
-        footer, header {color:Black; background-color:#FFC0CB; font-family:'Courier New'}
-    </style>
 </head>
 <body>
     <header>
@@ -24,6 +22,34 @@
             </a>
         </nav>
     </header>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="corousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img class="imgcarousel" src="./assets/img/toalhas.jpg" alt="foto de toalhas no varal ao vento">
+                </div>
+                <div class="item">
+                    <img class="imgcarousel" src="./assets/img/cafeSorrindo.jpg" alt="xicara de cafe com espuma sorrindo">
+                </div>
+                <div class="item">
+                    <img class="imgcarousel" src="./assets/img/ingredientesMacarrao.jpg" alt="ingredientes Macarrao">
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">anterior</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">proximo</span>
+                </a>
+            </div>
+        </div>
+    </div>
     <h1>Lucas Silveira dos Santos</h1>
     <h2>Em 180 caracteres...</h2>
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti voluptates porro fuga aut adipisci id vel, iusto velit delectus. Ab nisi repellat suscipit consequatur laudantium voluptates maxime, ullam temporibus laborum?</p>
