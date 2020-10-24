@@ -1,60 +1,101 @@
-*{
-    margin: 0%;
-    padding: 0%;
-}
-.imgcarousel{
-    width: 450px;
-    height: 450px;
-}
-.titulocarosel{
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Homemade Apple', cursive;
-    margin: 20px;
-}
-.titulomanifesto{
-    color: pink;
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-}
-.strong{
-    font-family: 'Press Start 2P', cursive;
-    font-size: 15px;
-}
-.textodapagina{
-    text-align: center;
-}
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-}
-.carousel-inner > .item > iframe,
-.carousel-inner > .item > a > iframe{
-    margin: auto;
-}
-.center{
-    text-align: center;
-}
-.itemcenter{
-    align-items: center;
-}
-#menu li a img figcaption{
-    display: inline;
-    padding: 15px;    
-}
-#menu li a {
-    text-decoration: none;
-    color: #546de5;
-    font-size: 20px;
-}
-#videos{
-    background-color: deeppink;
-}
-#imagens{
-    background-color: darkorchid;
-}
-#manifestoagil{
-    background-color: pink;
-    padding-top: 20px;
-}
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    .animationText:hover {
+        text-decoration: none;
+    }
+    
+    .titulocarosel {
+        font-size: 50px;
+        text-align: center;
+        font-family: 'Homemade Apple', cursive;
+        margin: 20px;
+    }
+    
+    .titulomanifesto,
+    .textomanifesto {
+        color: black;
+        font-family: 'Alfa Slab One', cursive;
+        text-align: center;
+    }
+    
+    .strong {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 15px;
+        color: forestgreen;
+    }
+    
+    .textodapagina {
+        text-align: center;
+    }
+    
+    .carousel-inner>.item>img,
+    .carousel-inner>.item>a>img {
+        width: 70%;
+        margin: auto;
+    }
+    
+    .carousel-inner>.item>iframe,
+    .carousel-inner>.item>a>iframe {
+        margin: auto;
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .itemcenter {
+        align-items: center;
+    }
+    
+    .iconsize {
+        height: 50px;
+    }
+    
+    div:active {
+        align-items: inherit;
+    }
+    
+    .container {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .a {
+        text-decoration: none;
+    }
+    
+    .ml {
+        margin-left: 50px;
+    }
+    
+    .nomePagina {
+        font-family: 'Amatic SC', cursive;
+    }
+    
+    #menu li {
+        display: inline;
+        padding: 15px;
+    }
+    
+    #videos {
+        height: 400px;
+    }
+    
+    #imagens {
+        height: 400px;
+    }
+    
+    #manifestoagil {
+        height: 400px;
+        padding-top: 20px;
+    }
+    
+    #fotoDePerfil {
+        height: 150px;
+        border-radius: 50%;
+    }
